@@ -1,7 +1,6 @@
 tasks:
-
-	* init: chmod +x ./cloneRepos.sh
-command: ./cloneRepos.sh
+  - init: chmod +x ./cloneRepos.sh
+    command: ./cloneRepos.sh
 
 github:
   prebuilds:
@@ -15,7 +14,5 @@ github:
 
 vscode:
   extensions:
-
-- dbaeumer.vscode-eslint
-
-	* esbenp.prettier-vscode
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
