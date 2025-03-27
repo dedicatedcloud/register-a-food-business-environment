@@ -1,0 +1,21 @@
+tasks:
+
+	* init: chmod +x ./cloneRepos.sh
+command: ./cloneRepos.sh
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: true
+    addBadge: true
+
+vscode:
+  extensions:
+
+- dbaeumer.vscode-eslint
+
+	* esbenp.prettier-vscode
